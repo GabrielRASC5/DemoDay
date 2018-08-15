@@ -1,0 +1,230 @@
+​body{
+    background:whitesmoke;
+    
+    }
+    a{
+    font-size: 50px;
+    color: aliceblue;
+    }
+    img{
+    height: 100px;
+    width: 100px;
+    }
+    #topBar{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: row;
+       background:rgba(72, 116, 150);
+    }
+    #saying{
+       /* display: flex;
+       justify-content: flex-start;
+       align-content: flex-start; */
+       font-size:17.71px;
+       font-family: 'Ranga',cursive;
+       margin-right: 15px;
+       color: aliceblue;
+       text-align: center;
+       margin-top: 0px;
+    margin-right: 0px;
+    }
+    #motto{
+       width: 100px;
+       height: 60px;
+       background-color:rgba(72, 116, 150);
+       display: flex;
+       justify-content: flex-start;
+       align-content: flex-start;
+       margin-left: 540px;
+       height:75px ;
+       
+    }
+\#post{
+    display: none;
+ }
+ 
+ #pic{
+     height: 250px;
+     width: 235px;
+ }
+ 
+ .profile_pic{
+     background-image:  url("backgroundAllStar.jpeg");
+     height: 250px;
+     margin-top: 0px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border: black 2px solid;
+ }
+ 
+ .profile{
+     margin: 5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+#link{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+ 
+ #main_user{
+    display: flex;
+     background-color: rgb(182, 182, 182); 
+     border-bottom:  rgb(182, 182, 182) 10px solid;
+     margin: 5px;
+     text-align: center;
+     flex-direction: column;
+     justify-content: center;
+
+ }
+ 
+ .button{
+     background-color: rgb(182, 182, 182); 
+     border-top:  rgb(182, 182, 182) 10px solid;
+ }
+ 
+ #follow{
+    border:rgba(72, 116, 150);
+    width: 70px;
+    margin-left:555px;
+    /* margin-top: 30px;
+    display:flex;
+    flex-direction: row; */
+ }
+ 
+ #sidebar{
+     justify-content: space-evenly;
+     background-color: rgb(182, 182, 182); 
+     border-top:  black 5px solid;
+     border-right: black 5px solid;
+     border-left: black 5px solid;
+     border-bottom: black 5px solid;
+     flex-direction: column;
+     height: 400px;
+     width: 225px;
+ }
+ 
+ #event{
+     border-bottom: black 5px solid;
+     
+ }
+ 
+ #petitions{
+     border-bottom: black 5px solid;
+ }
+ 
+ #watch{
+     border-bottom: black 5px solid;
+ }
+ 
+ #settings{
+     border-bottom: black 5px solid;
+ }
+
+ .main_post{
+    display: inline-flex;
+    height: 600px;
+}
+
+#post{
+    background-color: blanchedalmond;
+    margin-left:49px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+#enter{
+    margin-left: 50px;
+}
+
+#ceo{
+    margin-left: 100px;
+}
+
+#generic{
+    /* display: inline-flex; */
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 475px;
+    border: 3px black solid;
+}
+
+#feed{
+    display: inline-flex;
+    flex-direction: column;
+    /* border: 5px solid black; */
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+#luis{
+    margin-left: 66px;
+    margin-top: 33px;
+}
+
+#facebook{
+    border: black solid 3px;
+    padding-right: 245px;
+    margin-bottom: 20px;
+}
+
+/* #yeet{
+    padding-right: 20px;
+} */
+
+#news{
+    margin-left: 25px;
+    margin-top: 0px;
+    height: 450px;
+    width: 510px;
+}
+
+#article{
+    color: black;
+    font-size: 25px;
+    font: small-caps;
+    margin-left: 120px;
+    margin-bottom: 50px;
+
+}
+
+#kik{
+    border: black solid 3px;
+    padding-right: 245px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#ligma{
+    color: black;
+    font-size: 25px;
+    font: small-caps;
+    margin-left: 120px;
+    margin-bottom: 50px;
+
+}
+
+#khaled{
+    border: black solid 3px;
+    padding-right: 245px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#dj{
+    color: black;
+    font-size: 25px;
+    font: small-caps;
+    margin-left: 120px;
+    margin-bottom: 50px;
+
+}

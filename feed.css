@@ -1,0 +1,45 @@
+​body{
+    background:whitesmoke;
+    
+    }
+    a{
+    font-size: 50px;
+    color: aliceblue;
+    }
+    img{
+    height: 100px;
+    width: 100px;
+    }
+    #topBar{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: row;
+       background:rgba(72, 116, 150);
+    }
+    #saying{
+       /* display: flex;
+       justify-content: flex-start;
+       align-content: flex-start; */
+       font-size:17.71px;
+       font-family: 'Ranga',cursive;
+       margin-right: 15px;
+       color: aliceblue;
+       text-align: center;
+       margin-top: 0px;
+    margin-right: 0px;
+    }
+    #motto{
+       width: 100px;
+       height: 60px;
+       background-color:rgba(72, 116, 150);
+       display: flex;
+       justify-content: flex-start;
+       align-content: flex-start;
+       margin-left: 587px;
+       
+    }
+    #post{
+       display: none;
+    }
+    

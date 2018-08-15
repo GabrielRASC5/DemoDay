@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="index.html"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    let config = {
+      apiKey: "AIzaSyAWso6bX_fOukpxud-J9Sbg5k-RD11KlGg",
+      authDomain: "fir-day-da12b.firebaseapp.com",
+      databaseURL: "https://fir-day-da12b.firebaseio.com",
+      projectId: "fir-day-da12b",
+      storageBucket: "fir-day-da12b.appspot.com",
+      messagingSenderId: "477265979179"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <link rel="stylesheet" href="loginStyles.css" />
+  <script src="loginJs.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+</head>
+
+<body>
+  <div class="user">
+    <button id="log" onclick="clickForm()">Login</button>
+    <button id="sign" onclick="signUpForm()">Sign Up</button>
+  </div>
+</body>
+
+</html>
